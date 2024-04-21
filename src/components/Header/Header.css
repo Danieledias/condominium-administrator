@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.header {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.1);
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.header .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+.header nav {
+  display: flex;
+  align-items: center;
+}
+
+.header .logo {
+  width: 80px;
+  margin-right: 100px;
+  cursor: pointer;
+}
+
+.header nav ul {
+  max-width: 100%;
+  padding-right: 16px;
+  text-align: right;
+  list-style: none;
+}
+
+.header nav ul li {
+  display: inline-block;
+  margin: 10px 20px;
+}
+
+.header nav ul li a {
+  font-family: "Poppins", Arial, sans-serif;
+  text-decoration: none;
+  font-size: min(20vw, 15px);
+  font-weight: normal;
+  color: #dedede;
+  transition: color 0.3s ease;
+}
+
+.header nav ul li a:hover {
+  color: #20438d;
+  font-weight: bold;
+}
+
+.header .button {
+  display: flex;
+  width: 182px;
+  align-items: center;
+  font-family: "Poppins", Arial, sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  white-space: nowrap;
+  padding: 10px 20px;
+  border: 0;
+  outline: 0;
+  border-radius: 5px;
+  color: #fff;
+  background-color: #20438d;
+  cursor: pointer;
+}
+
+.header .social-icons {
+  display: flex;
+  width: 130px;
+  align-items: center;
+  margin-left: 100px;
+}
+
+.header .social-icons i {
+  padding: 0 10px;
+  color: #dedede;
+  cursor: pointer;
+}
