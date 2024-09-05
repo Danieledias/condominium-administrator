@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --color-primary1: #fff;
+  --color-primary2: #ffffff;
+  --color-primary3: #ddd;
+  --color-primary4: #ccc;
+  --color-primary5: #f5f7fb;
+  --color-secundary1: #03ccff;
+  --color-secundary2: #3435db;
+  --color-secundary3: #263a4f;
+  --color-secundary4: #6a6a6a;
+  --color-secundary5: #222222;
+  --color-secundary6: #252b2d;
+}
+
+html,
+body {
+  height: 100%;
+  overflow-y: auto;
+  font-family: 'Geist', sans-serif;
+  background-color: var(--color-primary2);
+}
+
+@media (max-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 991px) {
+  body {
+    overflow-x: hidden;
+  }
+}

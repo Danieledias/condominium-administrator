@@ -1,0 +1,243 @@
+.slider {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.slides {
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.slide-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+@keyframes kenburns {
+  0% {
+    transform: scale(1) translate(0, 0);
+    transform-origin: center center;
+  }
+
+  100% {
+    transform: scale(1.2) translate(10px, -10px);
+    transform-origin: center center;
+  }
+}
+
+.slide {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  animation: kenburns 6s ease-out;
+  animation-fill-mode: forwards;
+}
+
+.slide-container::before {
+  content: '';
+  background-color: rgba(0, 0, 0, 0.3);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  z-index: 1;
+}
+
+.manual-navigation {
+  display: flex;
+  position: absolute;
+  width: 100%;
+  justify-content: center;
+  bottom: 1.25rem;
+  gap: 1.25rem;
+  z-index: 2;
+}
+
+.manual-btn {
+  display: flex;
+  position: relative;
+  width: 1.563rem;
+  height: 1.563rem;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.manual-btn input[type='radio'] {
+  display: none;
+}
+
+.manual-btn input[type='radio']:checked + .custom-radio {
+  background-color: var(--color-primary1);
+}
+
+.custom-radio {
+  width: 0.938rem;
+  height: 0.938rem;
+  border-radius: 50%;
+  background-color: transparent;
+  border: 2px solid var(--color-primary1);
+  transition: background-color 0.3s;
+}
+
+@keyframes fade-in-left {
+  from {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.text-container {
+  position: absolute;
+  color: var(--color-primary1);
+  text-align: left;
+  top: 50%;
+  padding-left: 6.25rem;
+  transform: translateY(-50%);
+  z-index: 2;
+}
+
+.text-container h1 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  line-height: 3.125rem;
+  letter-spacing: -1px;
+  color: var(--color-primary1);
+  animation: fade-in-left 1.2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+}
+
+.text-container p {
+  font-size: 1.125rem;
+  font-weight: 400;
+  line-height: 1.625rem;
+  letter-spacing: -0.2px;
+  color: var(--color-primary1);
+  margin-top: 0.5rem;
+  animation: fade-in-left 1.2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+  animation-delay: 0.6s;
+}
+
+.banner-button {
+  display: inline-block;
+  font-size: 1rem;
+  font-weight: bold;
+  text-decoration: none;
+  background-color: var(--color-secundary1);
+  color: var(--color-primary1);
+  border-radius: 5px;
+  padding: 0.625rem 1.25rem;
+  margin-top: 1.625rem;
+  transition: background-color 0.3s ease;
+  animation: fade-in-left 1.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+  animation-delay: 1.6s;
+}
+
+.banner-button:hover {
+  background-color: #02a7d9;
+}
+
+@media (max-width: 360px) {
+  .text-container h1 {
+    font-size: 1.063rem !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .slider {
+    height: 100vh;
+    min-height: 100vh;
+  }
+
+  .text-container {
+    top: 70%;
+    transform: translateY(-100%);
+  }
+
+  .text-container h1 {
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+  }
+
+  .text-container p {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+  }
+
+  .banner-button {
+    font-size: 0.75rem;
+    padding: 0.375rem 0.75rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .slider {
+    height: 100vh;
+    min-height: 100vh;
+  }
+
+  .slide {
+    object-fit: cover;
+    animation: none;
+  }
+
+  .text-container {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    text-align: center;
+    top: 70%;
+    transform: translateY(-70%);
+  }
+
+  .text-container h1 {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  .text-container p {
+    font-size: 1rem;
+    line-height: 1.4rem;
+  }
+
+  .banner-button {
+    font-size: 0.875rem;
+    padding: 0.5rem 1rem;
+  }
+
+  .manual-navigation {
+    bottom: 1rem;
+    gap: 1rem;
+  }
+
+  .manual-btn {
+    width: 1.25rem;
+    height: 1.25rem;
+  }
+
+  .custom-radio {
+    width: 0.75rem;
+    height: 0.75rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .text-container {
+    padding: 0 2.5rem;
+  }
+
+  .text-container h1 {
+    font-size: 2.25rem;
+  }
+}
