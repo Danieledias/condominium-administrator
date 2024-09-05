@@ -10,7 +10,7 @@ import {
   faPhone,
   faBuilding,
 } from '@fortawesome/free-solid-svg-icons'
-import './menuMobile.css'
+import './styles.css'
 
 const MenuMobile = () => {
   const location = useLocation()

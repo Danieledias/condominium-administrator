@@ -4,7 +4,7 @@ import RightArrow from '../../assets/icons/right-arrow.png'
 import LeftArrow from '../../assets/icons/left-arrow.png'
 import LeftArrowDisabled from '../../assets/icons/disable-left-arrow.png'
 import RightArrowDisabled from '../../assets/icons/disable-right-arrow.png'
-import './testimonials.css'
+import './styles.css'
 
 const Testimonials = () => {
   const carousel = useRef(null)

@@ -5,7 +5,7 @@ import FormEmail from '../../components/FormEmail'
 import Footer from '../../components/Footer'
 import PreloaderWrapper from '../../components/PreloaderWrapper'
 import Buildings from '../../assets/images/buildings-woman.jpg'
-import './contact.css'
+import './styles.css'
 
 const Contact = () => {
   return (

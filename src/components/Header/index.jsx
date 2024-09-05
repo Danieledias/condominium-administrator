@@ -2,7 +2,7 @@ import React from 'react'
 import { Link, useLocation } from 'react-router-dom'
 import MenuMobile from '../MenuMobile'
 import LogoSantaRita from '../../assets/images/logo-santa-rita.png'
-import './header.css'
+import './styles.css'
 
 const Header = () => {
   const location = useLocation()

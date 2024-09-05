@@ -9,7 +9,7 @@ import Write from '../../assets/icons/write.png'
 import Customer from '../../assets/icons/customer.png'
 import Maintenance from '../../assets/icons/maintenance.png'
 import Accounting from '../../assets/icons/accounting.png'
-import './Services.css'
+import './styles.css'
 
 const Services = () => {
   const imagesToLoad = [Desktop, Write, Customer, Maintenance, Accounting]

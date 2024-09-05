@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import emailjs from '@emailjs/browser'
 import Toast from '../../components/Toast'
-import './formEmail.css'
+import './styles.css'
 
 function FormEmail() {
   const [name, setName] = useState('')

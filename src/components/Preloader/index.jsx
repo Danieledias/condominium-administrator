@@ -1,6 +1,6 @@
 import React from 'react'
 import LogoLoader from '../../assets/images/logo-loader.png'
-import './preloader.css'
+import './styles.css'
 
 const Preloader = () => {
   return (

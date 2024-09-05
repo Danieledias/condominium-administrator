@@ -1,6 +1,6 @@
 import React from 'react'
 import LogoSantaRita from '../../assets/images/logo-santa-rita.png'
-import './footer.css'
+import './styles.css'
 
 const Footer = () => {
   const currentYear = new Date().getFullYear()

@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCircleXmark, faCircleCheck } from '@fortawesome/free-solid-svg-icons'
-import './toast.css'
+import './styles.css'
 
 const Toast = ({ type, message, onClose }) => {
   const [width, setWidth] = useState(100)

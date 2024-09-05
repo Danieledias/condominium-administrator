@@ -14,7 +14,7 @@ import Diploma from '../../assets/icons/diploma.png'
 import Light from '../../assets/icons/light-bulb.png'
 import Check from '../../assets/icons/check-mark.png'
 import Images from '../../assets/images/desktop.jpg'
-import './about.css'
+import './styles.css'
 
 const formatNumber = number => {
   return number.toLocaleString()

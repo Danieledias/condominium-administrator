@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import slides from '../../helpers/slidesData'
 import PreloaderWrapper from '../../components/PreloaderWrapper'
-import './slider.css'
+import './styles.css'
 
 const Slider = () => {
   const [currentIndex, setCurrentIndex] = useState(0)
