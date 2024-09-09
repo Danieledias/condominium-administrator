@@ -1,63 +1,43 @@
 const testimonialsData = [
   {
     stars: '★★★★★',
-    text: 'Excelente administradora, empresa idônea, ótimo atendimento e profissionais capacitados. Recomendo!!',
-    author: 'Marcia M.',
+    text: 'Desde que começamos a trabalhar com a CondoExpert, a administração do nosso condomínio tornou-se muito mais simples e eficiente. Eles sempre estão disponíveis para ajudar e resolver qualquer problema.',
+    author: 'Ricardo Pereira.',
   },
   {
     stars: '★★★★★',
-    text: 'Transparência, rapidez, qualidade equipe totalmente dedicada. Empresa comprometida em atender o clientres.',
-    author: 'Aparecido A.',
+    text: 'A CondoExpert tem sido uma excelente escolha para a administração do nosso condomínio. A equipe é muito profissional e sempre encontra soluções rápidas para qualquer situação. Altamente recomendados!',
+    author: 'Eduardo Lima.',
   },
   {
     stars: '★★★★★',
-    text: 'Atendimento excelente , com agilidade na resolução dos problemas e atenção ao condomínio e  moradores.  Recomendo!',
-    author: 'Adriano P.',
+    text: 'A CondoExpert é uma empresa que entende as necessidades dos seus clientes. A gestão das manutenções e a organização financeira foram muito melhoradas desde que iniciamos a parceria.',
+    author: 'Ana Costa',
   },
   {
     stars: '★★★★★',
-    text: 'Trabalham com muita transparência e eficiência. São proativo resolvendo os problemas antecipadamente. Atendimento excelente e com profissionais qualificados.',
-    author: 'Karen C.',
-  },
-  {
-    stars: '★★★★★',
-    text: 'Equipe preparada e muito atenciosa, sempre q preciso estão prontos a me atender e tirar dúvidas, nunca me deixaram na mão,  SUPER RECOMENDO.',
+    text: 'A CondoExpert tem sido uma grande parceira na administração do nosso condomínio. A equipe é dedicada e oferece suporte completo em todas as áreas. Realmente fazem a diferença!',
     author: 'Fatima V.',
   },
   {
     stars: '★★★★★',
-    text: 'Excelente administradora! Séria, competente...Fazem um trabalho diferenciado, são extremamente detalhistas! Super indico! Nos atendem muito bem há mais de 3 anos.',
-    author: 'Silmara S.',
+    text: 'A CondoExpert revolucionou a forma como nosso condomínio é administrado. A equipe é altamente qualificada e sempre mantém a comunicação aberta e eficiente. Estamos muito satisfeitos com o serviço.',
+    author: 'Roberta Martins.',
   },
   {
     stars: '★★★★★',
-    text: 'Melhor administradora da região de Curitiba. Pessoal qualificado, atendimento personalizado,  total transparência e ética profissional.',
-    author: 'Maira L.',
+    text: 'Trabalhar com a CondoExpert foi uma experiência excelente. Eles proporcionam um serviço de alta qualidade e têm um atendimento ao cliente excepcional. Sem dúvida, a melhor escolha para a administração do nosso condomínio.',
+    author: 'Pedro Souza',
   },
   {
     stars: '★★★★★',
-    text: 'Atendimento especializado,  profissionais competentes e apoio jurídico.Trabalho com eles a dois anos e nunca tive problemas.',
-    author: 'Taysi A.',
+    text: 'A CondoExpert se destaca pela sua competência e atenção aos detalhes. A administração do nosso condomínio nunca foi tão tranquila. Agradecemos pelo profissionalismo e dedicação.',
+    author: 'Fernanda Oliveira.',
   },
   {
     stars: '★★★★★',
-    text: 'Excelente atendimento. Muita competência. Sempre dispostos a ajudar. Pessoas muito honestas.',
-    author: 'Marcelo L.',
-  },
-  {
-    stars: '★★★★★',
-    text: 'Eles tem um ótimo atendimento, experiência de mercado, suporte jurídico, transparência nos serviços.',
-    author: 'Sheron L.',
-  },
-  {
-    stars: '★★★★★',
-    text: 'Isso que eu chamo de cuidar com carinho do cliente...parabéns recomendo a todos.',
-    author: 'Luis A.',
-  },
-  {
-    stars: '★★★★★',
-    text: 'Equipe competente, preparada e experiente! Eu recomendo os serviços da Santa Rita!!',
-    author: 'Leonardo Z.',
+    text: 'A CondoExpert transformou a administração do nosso condomínio. A equipe é muito profissional e sempre pronta para resolver qualquer situação rapidamente. Recomendo a todos que buscam uma gestão eficiente e confiável.',
+    author: 'Mariana Silva.',
   },
 ]
 

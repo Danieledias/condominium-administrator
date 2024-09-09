@@ -76,11 +76,7 @@ const MenuMobile = () => {
               </Link>
             </li>
             <li>
-              <a
-                href='https://condprime.com/home/login/?id=14&painel=cond'
-                target='_blank'
-                rel='noopener noreferrer'
-                className='external-link'>
+              <a href='#' rel='noopener noreferrer' className='external-link'>
                 <FontAwesomeIcon icon={faBuilding} className='spacing-icons' />
                 Acesse seu condomínio
               </a>

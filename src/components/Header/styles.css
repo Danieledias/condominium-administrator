@@ -89,17 +89,6 @@ header {
   );
 }
 
-@media (max-width: 767px) {
-  .header-container {
-    padding-top: 0.75rem !important;
-    padding-bottom: 0.75rem !important;
-  }
-
-  .logo img {
-    width: 72px;
-  }
-}
-
 @media (max-width: 884px) {
   .header-container {
     width: 100%;
@@ -118,7 +107,7 @@ header {
   }
 
   .logo img {
-    width: 90px;
+    width: 100px;
   }
 }
 

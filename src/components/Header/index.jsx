@@ -1,26 +1,18 @@
 import React from 'react'
 import { Link, useLocation } from 'react-router-dom'
 import MenuMobile from '../MenuMobile'
-import LogoSantaRita from '../../assets/images/logo-santa-rita.png'
+import LogoCondoExpert from '../../assets/images/logo-condo-expert.png'
 import './styles.css'
 
 const Header = () => {
   const location = useLocation()
-
-  const handleNavigation = path => {
-    window.open(path, '_blank')
-  }
 
   return (
     <header>
       <div className='header-container'>
         <div className='logo'>
           <Link to='/'>
-            <img
-              src={LogoSantaRita}
-              alt='Logo Santa Rita'
-              className='logo-santa-rita'
-            />
+            <img src={LogoCondoExpert} alt='Logo CondoExpoert' />
           </Link>
         </div>
         <nav className='nav-container'>
@@ -54,14 +46,7 @@ const Header = () => {
               </Link>
             </li>
           </ul>
-          <button
-            className='button'
-            type='button'
-            onClick={() =>
-              handleNavigation(
-                'https://condprime.com/home/login/?id=14&painel=cond',
-              )
-            }>
+          <button className='button' type='button'>
             Acesse seu condomínio
           </button>
         </nav>

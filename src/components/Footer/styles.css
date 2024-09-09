@@ -46,7 +46,7 @@
 }
 
 .logo-footer {
-  width: 192px;
+  width: 210px;
   height: auto;
 }
 
@@ -340,7 +340,7 @@ hr {
 
 @media (max-width: 480px) {
   .logo-footer {
-    width: 150px;
+    width: 200px;
   }
 
   .footer {
