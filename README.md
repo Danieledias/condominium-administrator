@@ -37,7 +37,7 @@ A seção de serviços da CondoExpert inclui:
  
 * Gestão Financeira
 
-  Esses elementos representam os principais serviços oferecidos pela empresa
+Esses elementos representam os principais serviços oferecidos pela empresa
  
 **Depoimentos**
   
