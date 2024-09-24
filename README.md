@@ -15,7 +15,7 @@ CondoExpert é um site fictício desenvolvido para uma administradora de condom�
 
 **Página Inicial**
 
-* Slider de imagens com textos chamativos destacando os principais serviços oferecidos.
+* Slider de imagens com textos destacando os principais serviços oferecidos.
 
 **Página Sobre**
 
